@@ -1,0 +1,6 @@
+C:\Users\Serhan\source\repos\FirmaAnket\FirmaAnket.Models\bin\Debug\FirmaAnket.Models.dll
+C:\Users\Serhan\source\repos\FirmaAnket\FirmaAnket.Models\bin\Debug\FirmaAnket.Models.pdb
+C:\Users\Serhan\source\repos\FirmaAnket\FirmaAnket.Models\obj\Debug\FirmaAnket.Models.csprojAssemblyReference.cache
+C:\Users\Serhan\source\repos\FirmaAnket\FirmaAnket.Models\obj\Debug\FirmaAnket.Models.csproj.CoreCompileInputs.cache
+C:\Users\Serhan\source\repos\FirmaAnket\FirmaAnket.Models\obj\Debug\FirmaAnket.Models.dll
+C:\Users\Serhan\source\repos\FirmaAnket\FirmaAnket.Models\obj\Debug\FirmaAnket.Models.pdb

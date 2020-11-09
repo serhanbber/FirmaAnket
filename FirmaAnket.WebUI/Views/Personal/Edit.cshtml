@@ -1,0 +1,68 @@
+﻿@model FirmaAnket.Models.PersonelDTO
+@{
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card">
+    <div class="card-body">
+        <div class="card-title">Kişi Düzenleme Sayfası</div>
+        <hr>
+        @using (Html.BeginForm("Edit", "Personal", FormMethod.Post))
+        {
+            <form>
+                <div class="form-group">
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    @Html.LabelFor(model => model.NameSurname, htmlAttributes: new { @class = "control-label col-md-2" })
+                    @Html.EditorFor(model => model.NameSurname, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.NameSurname, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    @Html.LabelFor(model => model.Code, htmlAttributes: new { @class = "control-label col-md-2" })
+                    @Html.EditorFor(model => model.Code, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Code, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    @Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "control-label col-md-2" })
+                    @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control", type = "password" } })
+                    @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+
+                    @*<label for="input-3">Şifre</label>
+                        <input type="password" class="form-control" name="Password" id="input-3" placeholder="Şifre" maxlength="20" required>*@
+                </div>
+                <label for="input-3">Admin Mi?</label>
+
+                <div class="icheck-metarial-primary icheck-inline">
+                    @if (Model.isAdmin == true)
+                    {
+                        <input type="radio" id="id_1" name="Answer" value="@FirmaAnket.WebUI.Constants.AnswerType.Yes" checked>
+                        <label for="id_1">@FirmaAnket.WebUI.Constants.AnswerType.Yes</label>
+
+                        <input type="radio" id="id_2" name="Answer" value="@FirmaAnket.WebUI.Constants.AnswerType.No">
+                        <label for="id_2">@FirmaAnket.WebUI.Constants.AnswerType.No</label>
+                    }
+                    else
+                    {
+                        <input type="radio" id="id_1" name="Answer" value="@FirmaAnket.WebUI.Constants.AnswerType.Yes">
+                        <label for="id_1">@FirmaAnket.WebUI.Constants.AnswerType.Yes</label>
+
+                        <input type="radio" id="id_2" name="Answer" value="@FirmaAnket.WebUI.Constants.AnswerType.No" checked>
+                        <label for="id_2">@FirmaAnket.WebUI.Constants.AnswerType.No</label>
+                    }
+
+
+                </div>
+
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-success shadow-success px-5"><i class="icon-lock"></i> Düzenle</button>
+                </div>
+            </form>
+        }
+
+
+    </div>
+</div>
+

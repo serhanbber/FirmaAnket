@@ -1,0 +1,12 @@
+C:\Users\Serhan\source\repos\FirmaAnket\FirmaAnket.Dal\obj\Debug\FirmaAnket.Dal.csprojAssemblyReference.cache
+C:\Users\Serhan\source\repos\FirmaAnket\FirmaAnket.Dal\obj\Debug\FirmaAnket.Dal.csproj.CoreCompileInputs.cache
+C:\Users\Serhan\source\repos\FirmaAnket\FirmaAnket.Dal\bin\Debug\FirmaAnket.Dal.dll.config
+C:\Users\Serhan\source\repos\FirmaAnket\FirmaAnket.Dal\bin\Debug\FirmaAnket.Dal.dll
+C:\Users\Serhan\source\repos\FirmaAnket\FirmaAnket.Dal\bin\Debug\FirmaAnket.Dal.pdb
+C:\Users\Serhan\source\repos\FirmaAnket\FirmaAnket.Dal\bin\Debug\EntityFramework.dll
+C:\Users\Serhan\source\repos\FirmaAnket\FirmaAnket.Dal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Serhan\source\repos\FirmaAnket\FirmaAnket.Dal\bin\Debug\EntityFramework.xml
+C:\Users\Serhan\source\repos\FirmaAnket\FirmaAnket.Dal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Serhan\source\repos\FirmaAnket\FirmaAnket.Dal\obj\Debug\FirmaAnket.Dal.csproj.CopyComplete
+C:\Users\Serhan\source\repos\FirmaAnket\FirmaAnket.Dal\obj\Debug\FirmaAnket.Dal.dll
+C:\Users\Serhan\source\repos\FirmaAnket\FirmaAnket.Dal\obj\Debug\FirmaAnket.Dal.pdb
